@@ -1,0 +1,5 @@
+{
+  "name": "Cuadrante Anual de Turnos",
+  "description": "Una aplicación completa para gestionar, visualizar y exportar cuadrantes de turnos laborales anuales. Funciona de forma local, permite configurar rotaciones, festivos y ver estadísticas detalladas.",
+  "requestFramePermissions": []
+}
