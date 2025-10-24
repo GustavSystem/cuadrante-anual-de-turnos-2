@@ -1,6 +1,6 @@
 import React from 'react';
-import { Shift, DayData } from '../types';
-import { MONTH_NAMES } from '../constants';
+import { Shift, DayData } from '../types.ts';
+import { MONTH_NAMES } from '../constants.ts';
 
 interface FullYearViewProps {
   year: number;

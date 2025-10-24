@@ -1,15 +1,14 @@
-
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import { Header } from './components/Header';
-import { Calendar } from './components/Calendar';
-import { StatsView } from './components/StatsView';
-import { SettingsModal } from './components/SettingsModal';
-import { EditDayModal } from './components/EditDayModal';
-import { FullYearView } from './components/FullYearView';
-import { useLocalStorage } from './hooks/useLocalStorage';
-import { getSpanishHolidays } from './services/holidays';
-import { Shift, DayData, Rotation, View } from './types';
-import { COLORS } from './constants';
+import { Header } from './components/Header.tsx';
+import { Calendar } from './components/Calendar.tsx';
+import { StatsView } from './components/StatsView.tsx';
+import { SettingsModal } from './components/SettingsModal.tsx';
+import { EditDayModal } from './components/EditDayModal.tsx';
+import { FullYearView } from './components/FullYearView.tsx';
+import { useLocalStorage } from './hooks/useLocalStorage.ts';
+import { getSpanishHolidays } from './services/holidays.ts';
+import { Shift, DayData, Rotation, View } from './types.ts';
+import { COLORS } from './constants.ts';
 
 function App() {
   const [year, setYear] = useState(new Date().getFullYear());

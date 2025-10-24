@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
-import { Shift } from '../types';
-import { WEEK_DAY_NAMES_FULL, MONTH_NAMES } from '../constants';
+import { Shift } from '../types.ts';
+import { WEEK_DAY_NAMES_FULL, MONTH_NAMES } from '../constants.ts';
 
 interface EditDayModalProps {
   date: Date;

@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { Shift, View } from '../types';
-import { SunIcon, MoonIcon, CogIcon, ChartBarIcon, CalendarIcon, UploadIcon, DownloadIcon, DuplicateIcon, TableIcon, PrinterIcon } from './icons';
+import { Shift, View } from '../types.ts';
+import { SunIcon, MoonIcon, CogIcon, ChartBarIcon, CalendarIcon, UploadIcon, DownloadIcon, DuplicateIcon, TableIcon, PrinterIcon } from './icons.tsx';
 
 interface HeaderProps {
   year: number;

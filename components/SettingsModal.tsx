@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
-import { Shift, Rotation } from '../types';
-import { COLORS } from '../constants';
+import { Shift, Rotation } from '../types.ts';
+import { COLORS } from '../constants.ts';
 
 interface SettingsModalProps {
   shifts: Shift[];
