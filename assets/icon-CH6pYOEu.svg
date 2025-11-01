@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Main squircle background -->
+  <rect width="100" height="100" rx="20" fill="#3b82f6"/>
+  
+  <!-- Subtle grid lines creating the quadrant -->
+  <path d="M 50 15 L 50 85 M 15 50 L 85 50" stroke="rgba(255, 255, 255, 0.5)" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Shift indicator dots -->
+  <circle cx="32" cy="32" r="8" fill="#eab308"/>
+  <circle cx="68" cy="32" r="8" fill="#22c55e"/>
+  <circle cx="32" cy="68" r="8" fill="#ec4899"/>
+</svg>
